@@ -90,6 +90,7 @@ p {
 .animation-wrapper {
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 .progress-bar {
     display: flex;
@@ -117,6 +118,9 @@ p {
 .arrows {
     display: flex;
     justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 
 }
 .invisible {
