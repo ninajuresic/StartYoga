@@ -21,7 +21,7 @@ h3 {
     margin-bottom: 4px;
 }
 p {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 100;
     margin-bottom: 4px;
     margin-top: 4px;
@@ -90,7 +90,7 @@ p {
 .animation-wrapper {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .progress-bar {
     display: flex;
@@ -126,7 +126,12 @@ p {
 .invisible {
     opacity: 0;
 }
-
+#mount-a16e8862-1e49-4995-be8c-012f1acf877e {
+padding-bottom: 30%;
+}
+#mount-0eea338a-0ec4-48a5-a517-caf497184276 {
+    padding-bottom: 30%;
+}
 /*========================Media Query================================*/
 @media(max-width: 1199px){
 
