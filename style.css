@@ -11,7 +11,7 @@ html,body{
 body {
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Helvetica-Neue', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #9B9B9B;
 	height: 100% !important;
 }
@@ -145,20 +145,19 @@ padding-bottom: 30%;
 @media(max-width: 767px){
 	
 }
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape){
+@media only screen and (min-width : 414px) and (max-width : 736px) and (orientation : landscape){
 
 }
 @media(max-width: 375px){
     	
 }
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape){
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation : landscape){
 
 }
 @media(max-width: 320px){
     	
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : landscape)
+@media only screen and (min-width : 320px) and (max-width : 568px) and (orientation : landscape){
+    
+}
