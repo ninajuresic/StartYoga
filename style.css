@@ -12,10 +12,10 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Roboto', sans-serif;
-	color: #9B9B9B;
+	color: #4A4A4A;
 	height: 100% !important;
 }
-h3 {
+h {
     font-size: 36px;
     font-weight: 100;
     margin-bottom: 4px;
@@ -25,7 +25,10 @@ p {
     font-weight: 100;
     margin-bottom: 4px;
     margin-top: 4px;
-    color: #6F6F6F;
+    padding-left: 30%;
+    padding-right: 30%;
+
+
 }
 
 .navbar-default {
@@ -51,17 +54,16 @@ p {
        
 }
 .shapes {
-    width: 100%;
     height: 85vh;
     background: #F8F8F8;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 .flex-end {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-end;
 
  }
 
@@ -83,32 +85,36 @@ p {
 .text-container {
     display: flex;
     flex-direction: column;
-    width: 255px;
-    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
     
 }
 .animation-wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    
 }
 .progress-bar {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center
+    
 
 }
 .line{
     background: #9B9B9B;
-    width: 33%;
+    width: 100px;
     height: 1px;
-    margin: 4px 4px 0px 0px;
+    
 }
 .selected {
     background: rgb(70, 70, 70);
-    width: 33%;
+    width: 100px;
     height: 2px;
-    margin: 4px 4px 0px 0px;
+    
 }
 .arrow-right {
     float: right;
@@ -116,21 +122,17 @@ p {
     padding-bottom: 10px;
 }
 .arrows {
-    display: flex;
-    justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
+    
 
 }
 .invisible {
     opacity: 0;
 }
-#mount-a16e8862-1e49-4995-be8c-012f1acf877e {
-padding-bottom: 30%;
-}
-#mount-0eea338a-0ec4-48a5-a517-caf497184276 {
-    padding-bottom: 30%;
+
+
+
 }
 /*========================Media Query================================*/
 @media(max-width: 1199px){
@@ -159,5 +161,5 @@ padding-bottom: 30%;
 }
 
 @media only screen and (min-width : 320px) and (max-width : 568px) and (orientation : landscape){
-    
+
 }
